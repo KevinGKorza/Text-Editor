@@ -11,8 +11,8 @@ module.exports = () => {
     mode: 'development',
     //The entry points for our files
     entry: {
-      main: './src/js/index.js',
-      install: './src/js/install.js'
+      main: './dist/js/index.js',
+      install: './dist/js/install.js'
     },
     //The Output
     output: {
@@ -43,7 +43,7 @@ module.exports = () => {
         publicPath: './',
         icons: [
           {
-          src: path.resolve('src/images/logo.png'),
+          src: path.resolve('dist/images/logo.png'),
           sizes: [96, 128, 192, 256, 384, 512],
           destination: path.join('assets', 'icons'),
           },
