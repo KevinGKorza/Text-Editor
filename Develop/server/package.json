@@ -10,9 +10,12 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "webpack": "^5.75.0",
+        "workbox-recipes": "^6.5.4"
     },
     "devDependencies": {
-        "nodemon": "^2.0.4"
+        "nodemon": "^2.0.4",
+        "webpack-pwa-manifest": "^4.3.0"
     }
 }
