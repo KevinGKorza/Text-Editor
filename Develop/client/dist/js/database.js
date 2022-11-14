@@ -50,12 +50,13 @@ const tx = db.transation('jate', 'readonly');
 const store = tx.objectStore('jate');
 
 //Using .getAll() to get all the needed information
-const request = store.getAll();
+// const request = store.getAll();
+const request = store.get(1);
 
 //Confirmation
 const result = await request;
 console.log('result.value', result);
-return result;
+return result?.value;
 };
 
 
