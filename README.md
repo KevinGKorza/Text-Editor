@@ -50,10 +50,11 @@ Live url:
 
 Screen captures: 
 
-<img width="1640" alt="Screen Shot 2022-11-15 at 3 28 32 PM" src="https://user-images.githubusercontent.com/107637260/202019341-4dfe2948-c2e5-41ac-b73d-207218677615.png">
+<img width="1641" alt="Screen Shot 2022-11-15 at 4 25 14 PM" src="https://user-images.githubusercontent.com/107637260/202028597-a42417b8-08b4-498e-a3ff-9719f90d566c.png">
 
+<img width="1641" alt="Screen Shot 2022-11-15 at 4 23 01 PM" src="https://user-images.githubusercontent.com/107637260/202028642-7d233b36-03a9-422c-bf41-c07eb1279212.png">
 
-<img width="1643" alt="Screen Shot 2022-11-15 at 3 28 41 PM" src="https://user-images.githubusercontent.com/107637260/202019442-e3c05dce-a2ce-4ac7-8182-09c7f5206321.png">
+<img width="1640" alt="Screen Shot 2022-11-15 at 4 23 14 PM" src="https://user-images.githubusercontent.com/107637260/202028660-bb9d3420-5f85-49ac-ae06-a201355efed2.png">
 
 
 
