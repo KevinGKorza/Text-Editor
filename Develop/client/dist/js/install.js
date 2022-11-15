@@ -5,7 +5,7 @@ const butInstall = document.getElementById('buttonInstall');
 // window.addEventListener('beforeinstallprompt', (event) => {});
 window.addEventListener('beforeinstallprompt', (event) => {
     //Storing of the hidden event
-    window.defferedPrompt = event;
+    window.deferredPrompt = event;
 
     //Removal of the hidden class from the button
     butInstall.classList.toggle('hidden', false);
@@ -14,7 +14,8 @@ window.addEventListener('beforeinstallprompt', (event) => {
 // TODO: Implement a click event handler on the `butInstall` element
 // butInstall.addEventListener('click', async () => {});
 butInstall.addEventListener('click', async () => {
-    const promptEvent = window.defferedPrompt;
+    console.log(window)
+    const promptEvent = window.deferredPrompt;
     if (!promptEvent) {
         return;
     }
@@ -23,7 +24,7 @@ butInstall.addEventListener('click', async () => {
     promptEvent.prompt();
 
     //Resseting of the prompt variable
-    window.defferedPrompt = null;
+    window.deferredPrompt = null;
     butInstall.classList.toggle('hidden', true);
 });
 
